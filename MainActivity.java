@@ -146,17 +146,17 @@ public class MainActivity extends AppCompatActivity {
                     if (value == 0){
                         operand1 = 0.0;
                     }else{
-                    operand1 /= value;
+                    operand1 *= value;
                     }
                     break;
                 case "*":
-                    operand1 *= value;
+                    operand1 /= value;
                     break;
                 case "-":
-                    operand1 -= value;
+                    operand1 += value;
                     break;
                 case "+":
-                    operand1 +=  value;
+                    operand1 -=  value;
                     break;
             }
         }
