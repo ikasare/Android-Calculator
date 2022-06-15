@@ -163,6 +163,7 @@ public class MainActivity extends AppCompatActivity {
         result.setText(operand1.toString());
         newNumber.setText("");
 
+        
     }
 
 }
